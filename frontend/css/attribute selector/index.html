@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- <nav>
+      <p>Logo</p>
+      <p>Home</p>
+      <p>About</p>
+      <p>Contact</p>
+    </nav> -->
+    <input type="text" id="un" />
+    <input type="text" id="pw" />
+    <button>Login</button>
+    <script>
+      // localStorage.setItem('a',10 )
+      //   sessionStorage.setItem("un", "Prasad");
+      //   sessionStorage.setItem("pw", "123");
+      let un = document.querySelector("#un");
+      let pw = document.querySelector("#pw");
+      let btn = document.querySelector("button");
+
+      let username = "";
+      let password = "";
+      un.addEventListener("input", (e) => {
+        username = e.target.value;
+      });
+      pw.addEventListener("input", (e) => {
+        password = e.target.value;
+      });
+      btn.addEventListener('click', (e)=>{
+        if(username == sessionStorage.getItem('un') && password == sessionStorage.getItem('pw') ){
+            alert('welcome', sessionStorage.getItem('un'))
+        }else{
+            alert('wrong credentials')
+        }
+      })
+      sessionStorage.removeItem('pw')
+    </script>
+  </body>
+</html>

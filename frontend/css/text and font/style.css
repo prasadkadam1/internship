@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: #333;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  /* font-size: 200px; */
+  /* font-family: serif; */
+  /* font-family:sans-serif ; */
+  /* font-family:monospace ; */
+  /* font-family: cursive; */
+  /* font-family: fantasy; */
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+  /* font-weight: bold; */
+  /* text-align: start; */
+  /* text-transform: uppercase; */
+  /* text-transform: capitalize; */
+  /* text-transform: lowercase; */
+  /* text-indent: 200px; */
+  /* text-shadow: 0px 150px 50px gray; */
+  /* text-shadow: xAxis yAxis blur color; */
+  /*//! line compulsary*/
+  /* text-decoration-line: underline; */
+  /* text-decoration-line: overline; */
+  /* text-decoration-line:line-through; */
+  /*//! style */
+  /* text-decoration-style:wavy;
+  text-decoration-style:double;
+  text-decoration-style:dotted;
+  text-decoration-style:dashed; */
+  /*//! thickness */
+  /* text-decoration-thickness:1px ; */
+  /*//! color */
+  /* text-decoration-color:red ; */
+  /*//! short-hand */
+  /* text-decoration: red 20px double underline; */
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  border: 5px solid;
+  /*//! 1. predefined color name */
+  /* background-color: red; */
+  /*//! 2. hexaddecimal color combination */
+  /* //! 0 1 2 3 4 5 6 7 8 9 a b c d e f   */
+  /* background:seagreen; */
+  /* background-color: #0378dc ; */
+  /* background-color: #bf7530 ; */
+  /*white */
+  /* background-color: #ffffff ;*/
+  /*black */
+  /* background-color: #000000 ;  */
+  /*red */
+  /* background-color: #ff0000; */
+  /*blue */
+  /* background-color: #0000ff; */
+  /*green */
+  /* background-color: #00ff00; */
+  /*orange */
+  /* background-color: #ff8800; */
+  /*purple */
+  /* background-color: #440044; */
+  /*ocean blue */
+  /* background-color: #88ffff; */
+  /*gray: three pairs should be identical */
+  /* background-color: #ababab; */
+  /* background-image: linear-gradient(#ff0000,  #ffff00); */
+  /* background-color: #fa0; */
+  /*//! 3. RGB color combination */
+  /* //! range : rgb(0-255, 0-255, 0-255)  */
+  /*white */
+  /* background-color: rgb(255, 255, 255); */
+  /*black */
+  /* background-color: rgb(0, 0, 0) ; */
+  /*red */
+  /* background-color: rgb( 255, 0 ,0 ) ; */
+  /*blue */
+  /* background-color: rgb( 0,0 ,255 ) ; */
+  /*green */
+  /* background-color: rgb(0 ,255 ,0 ) ; */
+  /*orange */
+  /* background-color: rgb(255 , 155 , 0 ) ; */
+  /*purple */
+  /* background-color: rgb( 200,0 , 255) ; */
+  /*ocean blue */
+  /* background-color: rgb( 0 , 155, 255) ; */
+  /*gray: three value should be identical */
+  /* background-color: rgb( 160,160 ,160 ) ; */
+  /* background-image: linear-gradient(#ff0000,  #ffff00); */
+
+  /*//! hsl color combination */
+  /*//? background: hsl(hue(0-360deg), saturation (0-100%), lightness (0-100%)); */
+  /* background-color: hsl(30deg, 100%, 50%); */
+  /* background: #ff8800; */
+}

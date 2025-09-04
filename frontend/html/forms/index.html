@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- tags -form -input -button -->
+    <!-- <form action="">
+      <input type="color" /> <br />
+      <input type="date" /> <br />
+      <input type="datetime-local" /> <br />
+      <input type="email" /> <br />
+      <input type="file" /> <br />
+      <input type="hidden" /> <br />
+      <input type="month" /> <br />
+      <input type="number" /> <br />
+      <input type="text" id="input1" /> <br />
+      <input type="search" id="input1" /> <br />
+      <input type="tel" id="input1" /> <br />
+      <input type="time" id="input1" /> <br />
+      <input type="url" id="input1" /> <br />
+      <input type="week" id="input1" /> <br />
+      <br />
+      <input type="text" /> <br />
+      <br />
+      <button>Click</button>
+    </form> -->
+
+    <!--//! label -->
+    <!-- <form action=""> -->
+    <!-- <label for="user1">username</label> -->
+    <!-- <input type="text" id="user1" /> -->
+
+    <!-- <label for="user2">username</label> -->
+    <!-- <input type="text" id="user2" /> -->
+
+    <!-- <label for="user3">username</label> -->
+    <!-- <input type="text" id="user3" /> -->
+    <!-- <button>Click</button> -->
+    <!-- </form> -->
+
+    <!-- //! placeholder attribute -->
+    <!-- <form action="">
+      <input type="text" placeholder="Username">
+    </form> -->
+
+    <!-- //! checkboxes -->
+    <!-- <form action="">
+      <label for="html">Html</label>
+      <input type="checkbox" id="html" />
+      <label for="css">Css</label>
+      <input type="checkbox" id="css" />
+      <label for="js">Js</label>
+      <input type="checkbox" id="js" />
+      <label for="react">React</label>
+      <input type="checkbox" id="react" />
+    </form> -->
+
+    <!-- //! radio buttons. imp thing is name attribute using which we can achieve the single selections -->
+    <!-- <form action="">
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" />
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" />
+      <label for="other">Other</label>
+      <input type="radio" id="other" name="gender" />
+    </form> -->
+
+    <form action="">
+      <fieldset>
+        <legend>Placeholder attribute</legend>
+        <input type="text" placeholder="Username" />
+      </fieldset>
+    </form>
+
+    <form action="">
+      <fieldset>
+        <legend>Types of button (button, reset, submit)</legend>
+        <input type="text" />
+        <input type="text" />
+        <button type="button">button</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+    <form action="">
+      <fieldset>
+        <legend>Range bar</legend>
+        <span id="minVal">0</span>
+        <input id="rangebar" type="range" min="0" max="500" step="100" />
+        <span id="maxVal"></span>
+      </fieldset>
+    </form>
+
+    <!-- <script>
+      let rangebar = document.querySelector("#rangebar");
+      let maxVal = document.querySelector("#maxVal");
+      rangebar.addEventListener("input", (e) => {
+        console.log(e.target.value);
+maxVal.innerText = e.target.value
+      });
+    </script> -->
+
+    <!--//! form tags -->
+    <form action="">
+      <fieldset>
+        <legend>textarea</legend>
+        <textarea name="" id="" rows="5" cols="15"></textarea>
+      </fieldset>
+    </form>
+
+    <form action="">
+      <fieldset>
+        <legend>Dropdown</legend>
+        <select name="paper" id="">
+          <option value="option1">option1</option>
+          <option value="option2">option2</option>
+          <option value="option3">option3</option>
+          <option value="option4">option4</option>
+          <option value="option5">option5</option>
+        </select>
+      </fieldset>
+    </form>
+
+    <!-- //! attributes -->
+    <form action="">
+      <fieldset>
+        <legend>name, value attribute</legend>
+        <input id="mobile" type="text" value="+91 " name="mobile" />
+      </fieldset>
+    </form>
+
+    <form action="">
+      <fieldset>
+        <legend>readonly , disabled attribute</legend>
+        <!-- readonly is for text fields,  -->
+        <input type="text" readonly value="Agree all T&C" />
+        <!-- disabled is for checkboxes, radio buttons, buttons -->
+        <input id="mobile" type="checkbox" value="" disabled checked />
+      </fieldset>
+    </form>
+
+    <form action="">
+      <fieldset>
+        <legend>accesskey</legend>
+        <input type="text" accesskey="t" />
+        <input type="checkbox" accesskey="c" />
+        <a href="https://www.google.com" accesskey="a">go to google</a>
+        <button accesskey="b">Submit</button> (use alt+b)
+      </fieldset>
+    </form>
+
+    <form action="https://www.something.com" method="get">
+      <fieldset>
+        <legend>action and method attribute</legend>
+        <input type="text" name="username" />
+        <button>Submit</button>
+      </fieldset>
+    </form>
+
+    <form >
+      <fieldset>
+        <legend>minlength and maxlength attributes</legend>
+        <input type="text" minlength="10" maxlength="10" />
+        <button>Submit</button>
+      </fieldset>
+    </form>
+    <script>
+      let mobile = document.querySelector("#mobile");
+      mobile.addEventListener("input", (e) => {
+        e.target.checked = true;
+      });
+    </script>
+
+    <!-- <script>
+      let select = document.querySelector("select");
+      select.addEventListener("input", (e) => {
+        console.log(e.target.name , ":", e.target.value);
+      });
+    </script> -->
+
+    <!-- <script>
+      let input = document.querySelector("#input1");
+      input.addEventListener('change', (e)=>{
+        console.log(e.target.value);
+        let str = e.target.value
+        for (let i = 0; i < str.length; i++) {
+            console.log(str[i].charCodeAt());
+           if(str[i].charCodeAt() == 64){
+            console.log("Valid email syntax");
+           }         
+        }
+      });
+    </script> -->
+  </body>
+</html>

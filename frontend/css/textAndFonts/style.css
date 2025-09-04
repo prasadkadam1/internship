@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* body {
+  height: 100vh;
+  background: #333;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+p {
+  font-size: 6rem;
+  /* //! 1. with strokes */
+  /* font-family: serif;  */
+  /* //! 2. without strokes */
+  /* font-family: sans-serif;  */
+  /* //! 3. each char ocuupies the same width to give a typewriter effect */
+  /* font-family: monospace;  */
+  /* //! 4. handwritten effect */
+  /* font-family: cursive; */
+  /* //! 5. decorative fonts */
+  /* font-family: fantasy; */
+
+  /* font-family: fantaci, karsive, monospace, serif, sans-serif; */
+  /* //! fallback fonts -> these are the fonts which we pass as an alternative fonts for a given font, if the 1st one dont work then next alternative will work  */
+  /* font-family:"Mr Bedfort", cursive ; */
+  /*//todo commonly used are => roboto, poppins, open sans  */
+
+  /* //! to make the text bold */
+  /* font-weight: bold; */
+
+  /* //! to make the text italic */
+  /* font-style: italic; */
+
+  /* ////////////////! text properties //////////////////  */
+
+  /* //! to align the text */
+  /* text-align: center; */
+  /* //! first character of each word in upercase*/
+
+
+  /* //* text-transform: capitalize; */
+  /* //! everything in upercase*/
+  /* text-transform: uppercase; */
+
+  /* //! everything in lowercase*/
+  /* text-transform: lowercase; */
+
+  /* //! indentation/space for the first line of paragraph */
+  /* text-indent: 300px; */
+ 
+}
+div {
+  font-size: 6rem;
+}

@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  background: #222;
+}
+main{
+display: flex;
+flex-wrap: wrap;
+gap: 5px;
+}
+div{
+  width: 50px;
+  height: 300px;
+background: crimson;
+border: 3px solid salmon;
+}

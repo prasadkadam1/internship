@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+/* div,
+section,*/
+p {
+  /* font-size: 50px; */
+  /* color: white; */
+}
+/* section {
+  position: sticky;
+  font-size: 100px;
+  top: 50%;
+} */
+/* 
+div {
+    width: 100vw;
+    border: 3px solid;
+  background: rgb(110, 44, 44);
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  font-size: 100px;
+} */
+
+/* main,
+section,
+div {
+  border: 5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+}
+section {
+  width: 600px;
+  height: 300px;
+  position: relative;
+}
+div {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+} */
+
+/* div {
+  width: 400px;
+  height: 400px;
+  background: purple;
+  border-radius: 20px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+} */
+
+/* .tooltip {
+  width: 300px;
+  height: 100px;
+  background: purple;
+  border-radius: 5px;
+  display: none;
+  position: relative; 
+  bottom: 100px;
+}
+button {
+  padding: 20px;
+  position: fixed;
+}
+button:hover + .tooltip {
+  display: inline-block;
+} */
+
+/* .container{
+  width: 400px;
+  height: 400px;
+  background: rgb(131, 128, 128);
+  position: relative;
+}
+.box{
+  width: 50px;
+  height: 50px;
+  background: red;
+position: absolute;
+right: -25px;
+top: -25px;
+} */
+
+/* main{
+  display: flex;
+}
+aside{
+  width: 30%;
+  height: 100vh;
+  background: orange;
+
+}
+.container{
+  height: 100vh;
+  background: #a98787;
+  overflow: auto;
+  width: 70%;
+  padding: 20px;
+
+} */
+
+div {
+  width: 200px;
+  height: 200px;
+  background: lightcoral;
+  /* z-index: 1; */
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+  z-index: 5;
+}
+main {
+  z-index: 4;
+  width: 200px;
+  height: 200px;
+  background: lightgreen;
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+}
+section {
+  z-index: 3;
+  width: 200px;
+  height: 200px;
+  background: rgb(191, 242, 242);
+  position: relative;
+  /* right: 100px; */
+  /* top: 100px; */
+}
+
+article {
+  z-index: 2;
+  width: 200px;
+  height: 200px;
+  background: lightpink;
+  position: relative;
+  right: 100px;
+  top: 100px;
+}
+aside {
+  /* z-index: 2; */
+  width: 200px;
+  height: 200px;
+  background: lightsalmon;
+  position: relative;
+  right: 200px;
+  top: 200px;
+}

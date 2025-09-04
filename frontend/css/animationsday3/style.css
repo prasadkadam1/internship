@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* main {
+  height: 100vh;
+  display: flex;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  width: 30%;
+  height: 30%;
+  background: rgb(54, 54, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 70px;
+  border-top: 10px solid rgb(255, 187, 0);
+  border-radius: 0 0 20px 20px;
+  animation-name: box;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+@keyframes box {
+  0% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-10deg);
+  }
+  80% {
+    transform: rotate(10deg);
+  }
+  90% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+} */
+
+/* //! pacman */
+/* main {
+  height: 100vh;
+  display: flex;
+  background: #444;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+section {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.up {
+  width: 200px;
+  height: 100px;
+  border-radius: 100px 100px 0 0;
+  background: yellow;
+  animation-name: up;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transform-origin: bottom;
+}
+@keyframes up {
+    to {
+        transform: rotate(-20deg);
+    }
+}
+article:first-child {
+    z-index: 1;
+}
+.down {
+    width: 200px;
+    height: 100px;
+    border-radius: 0 0 100px 100px;
+    transform-origin: top;
+  background: yellow;
+  animation-name: down;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes down {
+  to {
+    transform: rotate(20deg);
+  }
+}
+article:last-child > div {
+  width: 50px;
+  height: 50px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 13vh;
+  right: 0px;
+  overflow: hidden;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-name: ball;
+}
+article:last-child {
+  display: flex;
+  align-items: center;
+}
+@keyframes ball {
+  to {
+    transform: translate(-85vw);
+  }
+}
+.ball2 {
+  animation-delay: 0.5s;
+}
+.ball3 {
+  animation-delay: 1s;
+}
+.ball4 {
+  animation-delay: 1.5s;
+}
+.ball5 {
+  animation-delay: 2s;
+}
+.ball6 {
+  animation-delay: 2.5s;
+} */
+
+main{
+    height: 100vh;
+  display: flex;
+  align-items: end;
+  padding: 50px;
+  justify-content: end;  
+}
+section{
+    position: relative;
+
+    animation-name: car;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes car {
+    to{
+        transform: translate(-70vw);
+    }
+}
+.wheel1, .wheel2{
+    width: 55px;
+    position:absolute;
+    bottom: 62px;
+    animation-name: wheel;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+
+}
+@keyframes wheel {
+    to{
+        transform: rotate(-1000deg);
+    }
+}
+.wheel1{
+right: 68px;
+}
+.wheel2{
+left: 68px;
+}

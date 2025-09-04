@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: #222;
+  color: whitesmoke;
+}
+
+nav {
+  height: 100px;
+  background: #555;
+}
+p {
+  font-size: 40px;
+  border: 5px solid;
+}
+/* p {
+  display: inline-block;
+  width: 24%;
+  border: 5px solid;
+  font-size: 40px;
+  height: 100%;
+  text-align: center;
+} */
+
+span{
+    display: block;
+}

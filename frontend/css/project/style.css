@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  /* background-image: linear-gradient(to right, #551aec, #aa6df9); */
+}
+.dashboardMain {
+  border: none;
+  outline: none;
+  height: 160vh;
+  background-image: linear-gradient(to right, #551aec, #aa6df9);
+  clip-path: polygon(0 0, 100% 0%, 100% 85%, 50% 100%, 0 85%);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.object5 {
+  position: absolute;
+  top: -13vh;
+  right: -170px;
+  animation: object 10s infinite alternate;
+  filter: blur(5px);
+}
+
+.object5 > img {
+  width: 32vw;
+}
+
+.object4 {
+  position: absolute;
+  top: 13vh;
+  right: 150px;
+  animation: object 10s infinite alternate;
+}
+@keyframes object {
+  to {
+    transform: translate(0px, -30px);
+  }
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  height: 10vh;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to right, #551aec, #aa6df9);
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.profile3 {
+  height: 10vh;
+}
+nav > section:nth-child(2) {
+  color: white;
+  display: flex;
+  gap: 50px;
+}
+nav > section:nth-child(2) > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.loginBtn {
+  background: none;
+  border: 1px solid rgb(228, 228, 228);
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+}
+.signupBtn {
+  background: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: #551aec;
+  font-weight: 700;
+  outline: none;
+}
+.ProductsCard,
+.useCasesCard,
+.templatesCard,
+.resoursesCard {
+  width: 30vw;
+  height: 30vh;
+  background: white;
+  position: absolute;
+  top: 12vh;
+  display: none !important;
+}
+.ProductsCard {
+  background: gray;
+}
+.useCasesCard {
+  background: orange;
+  left: 35vw;
+}
+.templatesCard {
+  background: red;
+  left: 45vw;
+}
+.resoursesCard {
+  background: yellow;
+  left: 55vw;
+}
+#prod:hover + .ProductsCard {
+  display: block !important;
+}
+.winMoreDeals {
+    padding-top: 100px;
+  width: 70vw;
+  height: 90vh;
+  /* background: #000; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.winMoreDeals>h1{
+    font-size: 80px;
+    font-weight: 700;
+
+}
+.winMoreDeals>p{
+    font-size: 20px;
+    line-height: 40px;
+}
+.winMoreDeals>article:last-child{
+    display: flex;
+    gap: 100px;
+}
+.img1{
+position: relative;
+left: 17vw;
+bottom: 65vh;
+}

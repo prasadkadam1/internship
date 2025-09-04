@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--//! Internal css -->
+    <!-- <style>
+      div {
+        background-color: brown;
+      }
+    </style> -->
+    <link rel="stylesheet" href="./kranti.css" />
+  </head>
+  <body>
+    <!--//! inline css -->
+    <!-- //!
+    <h1>selectors</h1>
+    <ul>
+      <li>Simple selectors</li>
+      <ol>
+        <li>tagname</li>
+        <li>class (.)</li>
+        <li>id (#)</li>
+        <li>grouping (,)</li>
+        <li>universal (*)</li>
+      </ol>
+      <li>combinator selectors</li>
+      <ol>
+        <li>child (>)</li>
+        <li>descendent (space)</li>
+        <li>adjecent sibling (+)</li>
+        <li>general sibling (~)</li>
+      </ol>
+      <li>pseudo class selectors</li>
+      <ol>
+        <li>:active👍</li>
+        <li>:checked 👍</li>
+        <li>:disabled 👍</li>
+        <li>:enabled 👍</li>
+        <li>:readonly👍</li>
+        <li>:hover👍</li>
+        <li>:focus</li>
+        <li>:visited👍</li>
+        <li>:required👍</li>
+        <li>:first-child👍</li>
+        <li>:last-child👍</li>
+        <li>:nth-child👍</li>
+        <li>:nth-last-child👍</li>
+        <li>:first-of-type👍   </li>
+        <li>:last-of-type👍    </li>
+        <li>:nth-of-type👍     </li>
+        <li>:nth-last-of-type👍</li>
+      </ol>
+      <li>Pseudo emement selectors</li>
+      <ol>
+        <li>::before</li>
+        <li>::after</li>
+        <li>::selection</li>
+        <li>::marker</li>
+        <li>::first-letter</li>
+        <li>::first-line</li>
+      </ol>
+    </ul> -->
+    <!-- ================================== -->
+
+    <!-- <div>
+      <main>main</main>
+      <section class="sec">section</section>
+      <article id="art">article</article>
+    </div> -->
+
+    <!-- ================================== -->
+    <!--//? adjecent sibling (+) -->
+    <!--//? general sibling (~) -->
+
+    <!-- <main>
+      <div class="green">Shraddha</div>
+      <div class="cream">Kranti</div>
+      <div id="black">Prasad</div>
+      <div class="red">Vaishnavi</div>
+      <div id="red">Rashmi</div>
+    </main>
+    <main>
+      <div id="pink">Tejas</div>
+      <div class="blue">Prathamesh</div>
+      <div id="black">Gaurav</div>
+      <div>
+        <div class="green">Ayush</div>
+      </div>
+      <div class="blue">Pancham</div>
+    </main> -->
+
+    <!-- ================================== -->
+    <!-- //! pseudo classed -->
+    <!-- //?  active and visited👍 -->
+    <!-- <a href="#">Go to home page</a> -->
+    <!-- <a href="#1">Go to about page</a> -->
+    <!-- <a href="#2">Go to contact page</a> -->
+
+    <!-- //? checked -->
+    <!-- <form action="">
+      <input type="checkbox" />
+      <input type="radio" />
+    </form> -->
+
+    <!-- //? disabled and enabled -->
+    <!-- <input type="text" />
+    <button>Click</button>
+    <button disabled>Click</button> -->
+
+    <!-- <script>
+      let input = document.querySelector("input");
+      let button = document.querySelector("button");
+      input.addEventListener("input", (e) => {
+        console.log(Boolean(e.target.value));
+        let val = e.target.value
+        if(val.length>8){
+          button.removeAttribute('disabled')
+        }else{
+          button.setAttribute('disabled', true)
+        }
+      });
+    </script> -->
+
+    <!-- <h1 style="background-color: red;">text1</h1>
+    <h1 style="background-color: orange;">text2</h1>
+    <h1 style="background-color:yellow ;">text3</h1> -->
+
+    <!-- <p style="color: burlywood; font-size: 30px; line-height: 100px;">text</p> -->
+    <!-- <p style="color: burlywood; font-size: 30px; line-height: 100px;">text</p> -->
+    <!-- <p style="color: burlywood; font-size: 30px; line-height: 100px;">text</p> -->
+    <!-- <p style="color: burlywood; font-size: 30px; line-height: 100px;">text</p> -->
+
+    <!-- <div class="highlight">i am div</div>
+    <p class="highlight">i am para</p> -->
+
+    <!-- <h1 id="main-heading">Heading</h1> -->
+    <!-- <a href="">LINK</a>
+    <a href="">LINK</a>
+    <a href="">LINK</a>
+    <a href="">LINK</a> -->
+
+    <!-- <a href="#123">Link</a> -->
+    <!-- <input type="checkbox" /> -->
+
+    <!-- //!HOVER  -->
+    <!-- <div></div> -->
+    <!--//! FOCUS -->
+    <!-- <input type="text">
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <input type="text"> -->
+
+    <!-- //! nth-child,  first-child,  last-child and nth-last-child -->
+    <!-- <div>im div 1</div>
+    <div>im div 2</div>
+    <div>im div 3</div>
+    <div>im div 4</div>
+    <div>im div 5</div> -->
+
+    <!-- //! first-of-type👍, last-of-type👍 , nth-of-type👍 , nth-last-of-type👍, -->
+    <!-- <section>im section 1</section>
+    <div  id="ele">im div 1</div>
+    <main id="ele">im main 1</main>
+    <div>im div 2</div>
+    <div>im div 3</div>
+    <div>im div 4</div>
+    <section>im section 2</section>
+    <main>im main 2</main> -->
+
+    <!-- ================================== -->
+
+    <!-- //! pseudo element selectors -->
+    <!-- //! first-letter, first-line, selection, before, after -->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, reiciendis nihil perspiciatis velit nesciunt, sint cumque veritatis a iusto neque est laudantium pariatur provident! Beatae pariatur est corrupti cumque. Dolores inventore laborum, nulla aperiam id quidem nesciunt eum totam minus odio doloremque ipsa iure ullam optio nostrum. Ullam, quod quos. Tempora neque nostrum quas magni quia itaque veritatis repudiandae sequi id? Sunt aliquam quia quos culpa ad aperiam harum odio vitae beatae, modi aut necessitatibus neque pariatur natus animi sit suscipit doloremque qui facilis assumenda hic perspiciatis enim. Quis expedita atque culpa, eos eum ut fugit vero veritatis ullam illum.</p> -->
+
+    <!-- <ul>
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+      <li>list item 5</li>
+      <li>list item 6</li>
+      <li>list item 7</li>
+      <li>list item 8</li>
+      <li>list item 9</li>
+      <li>list item 10</li>
+    </ul> -->
+  </body>
+</html>

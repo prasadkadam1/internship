@@ -1,0 +1,201 @@
+/*//! external css */
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+} */
+
+/* //? adjecent sibling (+)  */
+/* #Kranti + #Prasad {
+  background-color: yellow;
+} */
+/* // todo individual id will be targeted */
+
+/* div+div{
+  background-color: yellow;
+  } */
+/* // todo individual div will be targeted which are all except Shraddha */
+
+/* .Prathamesh+.Pancham{
+  background: yellow;
+} */
+
+/* main .green{
+  background: green;
+} */
+
+/* //?  active and visited👍 */
+
+/* a:visited {
+  color: rgb(131, 67, 67);
+}
+a {
+  color: black;
+}
+a:active {
+  color: yellow;
+} */
+
+/* //? checked */
+/* input:checked{
+  width: 50px;
+  height: 50px;
+} */
+
+/* //? disabled */
+/* button:disabled{
+  background: orangered;
+} */
+/* .heading1{
+background: red;
+}
+
+.heading2{
+  background: orange;
+  
+}
+.heading3{
+  background: yellowgreen;
+
+} */
+
+/* .highlight {
+  background: crimson;
+  color: goldenrod;
+  width: 200px;
+  height: 200px;
+  border: 10px solid;
+} */
+
+/* #main-heading{
+  font-size: 100px;
+} */
+
+/* a{
+  color: green;
+  text-decoration: none;
+  font-size: 100px;
+} */
+
+/* a {
+  color: green;
+} */
+
+/* a:active{
+  color: green;
+}
+a:visited{
+  color: yellow;
+} */
+/* input:checked {
+  width: 100px;
+  height: 100px;
+} */
+
+/* div{
+  width: 50px;
+  height: 300px;
+  background: #444;
+}
+   /* //!HOVER   */
+/* div:hover {
+  background: #555;
+} */
+
+/* //! FOCUS */
+/* input:focus {
+  background: #444;
+} */
+
+/* //! nth-child  */
+/* div:nth-child(2) {
+  background: #000;
+} */
+
+/* //! nth-last-child */
+/* div:nth-last-child(2) {
+  background: #000;
+} */
+
+/*//! first-child */
+/* div:first-child{
+  background: #000;
+} */
+
+/*//! last-child */
+/* div:last-child{
+  background: #000;
+} */
+
+/* //!first-of-type */
+/* div:first-of-type {
+  background: #000;
+} */
+/* //!last-of-type */
+/* div:last-of-type {
+  background: #000;
+} */
+/* //!nth-of-type */
+/* div:nth-of-type(3) {
+  background: #000;
+} */
+/* //!nth-last-of-type */
+/* div:nth-last-of-type(3) {
+  background: #000;
+} */
+
+/* #ele{
+  background: red;
+} */
+
+/* div:nth-child(2){
+  background: red;
+}
+
+main:nth-child(3){
+  background: red;
+} */
+
+/* //! pseudo emenent selectors */
+/* //! first-letter  */
+/* p::first-letter{
+  font-size: 200px;
+} */
+
+/* //! first-line  */
+/* p::first-line {
+  color: yellow;
+} */
+/* //!selection */
+/* p::selection {
+  color: yellow;
+  background: red;
+} */
+/* //! before */
+/* p::before{
+  content: "🐅🐅🐅🐅🐅🐅🐅🐅";
+}
+/* //! after */
+/* p::after{
+  content: "🐅🐅🐅🐅🐅🐅🐅🐅";
+}  */
+
+/*//! marker */
+li::marker{
+  content: "✨ ";
+}
+
+
+
+
+
