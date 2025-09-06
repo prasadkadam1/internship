@@ -68,9 +68,21 @@
 // };
 // reverserArr(arr, 2);
 
-let arr = [10, 20, 30, 40, 50, 60, 60];
+// let arr = [10, 20, 30, 40, 50, 60, 60];
 
-let reverseArr = (arr, size) => [...(arr.slice(arr.length - size)), ...(arr.slice(0, arr.length - size))];
+// let reverseArr = (arr, size) => [...(arr.slice(arr.length - size)), ...(arr.slice(0, arr.length - size))];
 
-console.log(reverseArr(arr, 3));
+// console.log(reverseArr(arr, 3));
 
+
+
+
+let btn = document.querySelector('button')
+btn.onclick = ()=>{}
+btn.addEventListener('click', ()=>{})
+
+
+
+let func =(num)=>{
+    console.log("btn clicked and num is ", num);    
+}
