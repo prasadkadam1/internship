@@ -1,3 +1,8 @@
+import EventsTask10 from "./EventsTask10";
+import EventsTask11 from "./EventsTask11";
+import EventsTask12 from "./EventsTask12";
+import EventsTask8 from "./EventsTask8";
+import EventsTask9 from "./EventsTask9";
 import EventsTask2 from "./eventsTasks/EventsTask2";
 import EventsTask3 from "./eventsTasks/EventsTask3";
 import EventsTask4 from "./eventsTasks/EventsTask4";
@@ -14,8 +19,13 @@ let EventsIntro = () => {
       {/* <EventsTask3></EventsTask3> */}
       {/* <EventsTask4></EventsTask4> */}
       {/* <EventsTask5></EventsTask5> */}
-      <EventsTask6></EventsTask6>
+      {/* <EventsTask6></EventsTask6> */}
       {/* <EventsTask7></EventsTask7> */}
+      {/* <EventsTask8></EventsTask8> */}
+      {/* <EventsTask9></EventsTask9> */}
+      <EventsTask10></EventsTask10>
+      {/* <EventsTask11></EventsTask11> */}
+      {/* <EventsTask12></EventsTask12> */}
     </div>
   );
 };
@@ -66,11 +76,11 @@ export default EventsIntro;
 
 // Password Visibility Toggle: Add a button that shows/hides password text.
 
-// Counter with Mouse Wheel: Increase/decrease counter when scrolling mouse wheel over a box.
+//? Counter with Mouse Wheel: Increase/decrease counter when scrolling mouse wheel over a box.
 
 // Disable Button After Click: Once clicked, button should disable itself.
 
-// Drag Event: Create a draggable div and log when dragging starts and ends.
+//? Drag Event: Create a draggable div and log when dragging starts and ends.
 
 // Mouse Events
 
@@ -86,17 +96,17 @@ export default EventsIntro;
 
 // Secret Code Detector: If the user types the word "banana" inside an input, show a dancing banana 🍌.
 
-// Caps Lock Police: Detect when Caps Lock is on, and show "HEY, WHY ARE YOU YELLING? 😡".
+//? Caps Lock Police: Detect when Caps Lock is on, and show "HEY, WHY ARE YOU YELLING? 😡".
 
 // Magic Key Combo: If user presses Ctrl + Shift + K, show "🚀 Secret Rocket Unlocked!".
 
 // 📝 Input & Form Events
 
-// Mirror Input: Whatever the user types appears backwards below (e.g., "hello" → "olleh").
+//? Mirror Input: Whatever the user types appears backwards below (e.g., "hello" → "olleh").
 
 // Emoji Translator: Replace the word "dog" with 🐶 and "cat" with 🐱 as user types.
 
-// Password Judge: When typing a password, show funny messages:
+//? Password Judge: When typing a password, show funny messages:
 
 // Weak → "💤 Come on, even my grandma can guess this."
 
