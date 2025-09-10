@@ -1,5 +1,6 @@
 import CrudIntro from "./components/crud/CrudIntro";
 import EventsIntro from "./components/events/EventsIntro";
+import PropsIntro from "./components/props/PropsIntro";
 import StateIntro from "./components/state/StateIntro";
 
 const App = () => {
@@ -9,14 +10,17 @@ const App = () => {
       {/* <div>
         <StateIntro></StateIntro>
       </div> */}
-
       {/* //! events in react. total  12 tasks */}
       {/* <div>
         <EventsIntro></EventsIntro>
       </div> */}
+      {/* //! crud operation */}
+      {/* <div>
+        <CrudIntro></CrudIntro>
+      </div> */}
 
       <div>
-        <CrudIntro></CrudIntro>
+        <PropsIntro></PropsIntro>
       </div>
     </div>
   );
