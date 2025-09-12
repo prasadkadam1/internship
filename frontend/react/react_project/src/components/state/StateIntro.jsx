@@ -6,6 +6,7 @@ import StateTask5 from "./stateTasks/StateTask5";
 import StateTask6 from "./stateTasks/StateTask6";
 import StateTask7 from "./stateTasks/StateTask7";
 import StateTask8 from "./stateTasks/StateTask8";
+import StateTask9 from "./stateTasks/StateTask9";
 
 let StateIntro = () => {
   return (
@@ -17,7 +18,8 @@ let StateIntro = () => {
       {/* <StateTask5></StateTask5> */}
       {/* <StateTask6></StateTask6> */}
       {/* <StateTask7></StateTask7> */}
-      <StateTask8></StateTask8>
+      {/* <StateTask8></StateTask8> */}
+      {/* <StateTask9></StateTask9> */}
     </div>
   );
 };
