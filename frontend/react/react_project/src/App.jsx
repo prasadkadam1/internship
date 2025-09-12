@@ -1,5 +1,6 @@
+import { useContext } from "react";
 import ClassBasedCompIntro from "./components/ClassBasedComp/ClassBasedCompIntro";
-import AppContext from "./components/ContextApi/AppContext";
+import AppContext, { context } from "./components/ContextApi/AppContext";
 import CrudIntro from "./components/crud/CrudIntro";
 import EventsIntro from "./components/events/EventsIntro";
 import PropsIntro from "./components/props/PropsIntro";
@@ -7,6 +8,8 @@ import StateIntro from "./components/state/StateIntro";
 import Check from "./components/temp/Check";
 
 const App = () => {
+
+  
   return (
     <div>
       {/* //! useState hook. total 8 tasks  */}
