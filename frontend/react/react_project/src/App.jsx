@@ -6,10 +6,21 @@ import EventsIntro from "./components/events/EventsIntro";
 import PropsIntro from "./components/props/PropsIntro";
 import StateIntro from "./components/state/StateIntro";
 import Check from "./components/temp/Check";
+import UseEffectIntro from "./components/useEffect/UseEffectIntro";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import UseEffectTask4 from "./components/useEffect/UseEffectTask4";
+let router = createBrowserRouter([
+  {
+    path: "/",
+    element: <UseEffectTask4></UseEffectTask4>,
+  },
+  {
+    path: "/home",
+    element: <Check></Check>,
+  },
+]);
 
 const App = () => {
-
-  
   return (
     <div>
       {/* //! useState hook. total 8 tasks  */}
@@ -32,10 +43,34 @@ const App = () => {
       {/*  <div>
         //! <ClassBasedCompIntro></ClassBasedCompIntro>
       </div> */}
-
-      <div>
+      {/* //! context api */}
+      {/* <div>
         <Check></Check>
+      </div> */}
+
+      {/*//! useEffect */}
+      <div>
+        <UseEffectIntro></UseEffectIntro>
       </div>
+
+      {/* <RouterProvider router={router}></RouterProvider> */}
+      {/* useMemo hook */}
+      {/* memoization */}
+      {/* useCallback hook */}
+
+      {/* useRef hook */}
+
+      {/* useReducer hook  */}
+
+      {/* routing */}
+
+      {/* useParams */}
+
+      {/* useSelector */}
+
+      {/* useDispatch */}
+
+      {/* redux Toolkit */}
     </div>
   );
 };
