@@ -12,7 +12,7 @@ const UseEffectIntro = () => {
         {/* <UseEffectTask2></UseEffectTask2> */}
         {/* <UseEffectTask3></UseEffectTask3> */}
         {/* <UseEffectTask4></UseEffectTask4> */}
-        <UseEffectTask5></UseEffectTask5>
+        {/* <UseEffectTask5></UseEffectTask5> */}
     </div>
   )
 }

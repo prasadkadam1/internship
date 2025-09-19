@@ -6,7 +6,7 @@ import React from "react";
 import AppContext from "./components/ContextApi/AppContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <AppContext>
+  // <AppContext>
     <App />
-  </AppContext>
+  // </AppContext>
 );

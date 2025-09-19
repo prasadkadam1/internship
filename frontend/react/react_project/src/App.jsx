@@ -9,6 +9,7 @@ import Check from "./components/temp/Check";
 import UseEffectIntro from "./components/useEffect/UseEffectIntro";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import UseEffectTask4 from "./components/useEffect/UseEffectTask4";
+import RoutingIntro from "./components/routing/RoutingIntro";
 let router = createBrowserRouter([
   {
     path: "/",
@@ -49,11 +50,15 @@ const App = () => {
       </div> */}
 
       {/*//! useEffect */}
-      <div>
+      {/* <div>
         <UseEffectIntro></UseEffectIntro>
-      </div>
+      </div> */}
 
       {/* <RouterProvider router={router}></RouterProvider> */}
+      {/* //! routing */}
+      <div>
+        <RoutingIntro></RoutingIntro>
+      </div>
       {/* useMemo hook */}
       {/* memoization */}
       {/* useCallback hook */}
