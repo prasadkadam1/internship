@@ -18,7 +18,7 @@ const RoutingIntro = () => {
       element: <Home></Home>,
       children: [
         {
-          path: "/home/products",
+          path: "/home",
           element: <Products></Products>,
         },
         {
