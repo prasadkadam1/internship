@@ -10,6 +10,9 @@ import UseEffectIntro from "./components/useEffect/UseEffectIntro";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import UseEffectTask4 from "./components/useEffect/UseEffectTask4";
 import RoutingIntro from "./components/routing/RoutingIntro";
+import UseMemoIntro from "./components/useMemo/UseMemoIntro";
+import ReactMemoIntro from "./components/reactmemo/ReactMemoIntro";
+import UseCBIntroComp from "./components/useCallback/UseCBIntroComp";
 let router = createBrowserRouter([
   {
     path: "/",
@@ -56,18 +59,20 @@ const App = () => {
 
       {/* <RouterProvider router={router}></RouterProvider> */}
       {/* //! routing */}
-      <div>
+      {/* <div>
         <RoutingIntro></RoutingIntro>
-      </div>
-      {/* useMemo hook */}
-      {/* memoization */}
+      </div> */}
+      {/*//! useMemo hook */}
+      {/* <div>
+        <UseMemoIntro></UseMemoIntro>
+      </div> */}
+      {/*//! react.memo for memoization */}
+      {/* <ReactMemoIntro></ReactMemoIntro> */}
       {/* useCallback hook */}
-
+      <UseCBIntroComp></UseCBIntroComp>
       {/* useRef hook */}
 
       {/* useReducer hook  */}
-
-      {/* routing */}
 
       {/* useParams */}
 

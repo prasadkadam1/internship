@@ -28,7 +28,7 @@ const RoutingIntro = () => {
         {
           path: "/home/payments",
           element: <Payments></Payments>,
-        }
+        },
       ],
     },
   ]);

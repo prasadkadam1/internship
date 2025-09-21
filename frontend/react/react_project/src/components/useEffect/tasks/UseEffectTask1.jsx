@@ -15,6 +15,7 @@ const UseEffectTask1 = () => {
         onClick={() => {
           setCount((count += 1));
         }}
+        className="bg-gray-500"
       >
         Add to cart
       </button>
