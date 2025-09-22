@@ -1,32 +1,32 @@
-import React, { useCallback, useState } from "react";
+import React from "react";
 import UseCBChild from "./UseCBChild";
+import { useState , useCallback} from "react";
 
 const UseCBIntroComp = () => {
-  let [state, setState] = useState(0);
-  let [state2, setState2] = useState(0);
-  let func = useCallback(() => {}, [state2]);
-  let a = 10;
+  let [state, setstate] = useState(0);
+  let [state2, setstate2] = useState(0);
+  console.log("parent");
+  // let val = ()=>{};
+  let val = useCallback(()=>{}, [state2]);
   return (
     <div>
-      <p>Parent</p>
       <button
         onClick={() => {
-          setState((state += 1));
+          setstate((state += 1));
         }}
-        className="bg-gray-700 text-white px-3"
+        className="bg-[olive] px-3 text-white"
       >
-        inc state : {state}
+        state1 : {state}
       </button>
-      <button
+          <button
         onClick={() => {
-          setState2((state2 += 1));
+          setstate2((state2 += 1));
         }}
-        className="bg-gray-700 text-white px-3"
+        className="bg-[olive] px-3 text-white"
       >
-        inc state2 : {state2}
+        state2 : {state2}
       </button>
-      <br /> <br /> <hr /> <br /> <hr /> <br />
-      <UseCBChild props={func}></UseCBChild>
+      <UseCBChild props={val}></UseCBChild>
     </div>
   );
 };

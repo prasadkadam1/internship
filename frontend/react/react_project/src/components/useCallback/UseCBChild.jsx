@@ -1,10 +1,11 @@
-import React from "react";
+import React from 'react'
 
 const UseCBChild = () => {
-  console.log("child called");
+  console.log("child");
+  return (
+    <div>UseCBChild</div>
+  )
+}
 
-  return <div>UseCBChild</div>;
-};
-
-// export default UseCBChild;
-export default React.memo(UseCBChild);
+// export default UseCBChild
+export default React.memo(UseCBChild)
