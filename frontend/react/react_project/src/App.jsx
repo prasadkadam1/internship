@@ -14,6 +14,7 @@ import UseMemoIntro from "./components/useMemo/UseMemoIntro";
 import ReactMemoIntro from "./components/reactmemo/ReactMemoIntro";
 import UseCBIntroComp from "./components/useCallback/UseCBIntroComp";
 import UseRefIntro from "./components/useRef/UseRefIntro";
+import UseReducerIntro from "./components/useReducer/UseReducerIntro";
 let router = createBrowserRouter([
   {
     path: "/",
@@ -72,9 +73,9 @@ const App = () => {
       {/* useCallback hook */}
       {/* <UseCBIntroComp></UseCBIntroComp> */}
       {/* useRef hook */}
-      <UseRefIntro></UseRefIntro>
+      {/* <UseRefIntro></UseRefIntro> */}
       {/* useReducer hook  */}
-
+      <UseReducerIntro></UseReducerIntro>
       {/* useParams */}
 
       {/* useSelector */}
