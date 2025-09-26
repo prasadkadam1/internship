@@ -70,19 +70,20 @@ const App = () => {
       </div> */}
       {/*//! react.memo for memoization */}
       {/* <ReactMemoIntro></ReactMemoIntro> */}
-      {/* useCallback hook */}
+      {/*//! useCallback hook */}
       {/* <UseCBIntroComp></UseCBIntroComp> */}
-      {/* useRef hook */}
+      {/* //!useRef hook */}
       {/* <UseRefIntro></UseRefIntro> */}
-      {/* useReducer hook  */}
-      <UseReducerIntro></UseReducerIntro>
+      {/*//! useReducer hook  */}
+      {/* <UseReducerIntro></UseReducerIntro> */}
       {/* useParams */}
+      
+      {/* redux Toolkit */}
 
       {/* useSelector */}
 
       {/* useDispatch */}
 
-      {/* redux Toolkit */}
     </div>
   );
 };

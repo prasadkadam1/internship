@@ -1,37 +1,20 @@
 import React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./Home";
-import Contact from "./components/Contact";
-
-[
-  {
-    path: "/home/about",
-    element: <></>,
-  },
-];
-
-let pathDefiner = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home></Home>,
-  },
-  {
-    path: "/contact",
-    element: <Contact></Contact>,
-  },
-  {
-    path: "/help",
-    element: <h1>Help</h1>,
-  },
-]);
+import { useDispatch, useSelector } from "react-redux";
+import { dec, inc, res } from "./main";
 
 const App = () => {
-  return <RouterProvider router={pathDefiner}></RouterProvider>;
+  let data = useSelector((state) => {
+    return state.counterRed;
+  });
+  let dispatch = useDispatch()
+  return (
+    <div>
+      <p>count : {data}</p>
+      <button onClick={()=>{dispatch(inc())}}>Inc</button>
+      <button onClick={()=>{dispatch(dec())}}>Dec</button>
+      <button onClick={()=>{dispatch(res()  )}}>Res</button>
+    </div>
+  );
 };
 
 export default App;
-
-
-
-
-// npm i react-router-dom
