@@ -38,9 +38,9 @@ const App = () => {
         <EventsIntro></EventsIntro>
       </div> */}
       {/* //! crud operation */}
-      {/* <div>
+      <div>
         <CrudIntro></CrudIntro>
-      </div> */}
+      </div>
       {/* 
       <div>
         <PropsIntro></PropsIntro>
