@@ -15,6 +15,7 @@ import ReactMemoIntro from "./components/reactmemo/ReactMemoIntro";
 import UseCBIntroComp from "./components/useCallback/UseCBIntroComp";
 import UseRefIntro from "./components/useRef/UseRefIntro";
 import UseReducerIntro from "./components/useReducer/UseReducerIntro";
+import AxiosIntro from "./components/axios/AxiosIntro";
 let router = createBrowserRouter([
   {
     path: "/",
@@ -39,7 +40,7 @@ const App = () => {
       </div> */}
       {/* //! crud operation */}
       <div>
-        <CrudIntro></CrudIntro>
+        {/* <CrudIntro></CrudIntro> */}
       </div>
       {/* 
       <div>
@@ -83,6 +84,11 @@ const App = () => {
       {/* useSelector */}
 
       {/* useDispatch */}
+
+      {/*//! axios */}
+      <div>
+        <AxiosIntro></AxiosIntro>
+      </div>
 
     </div>
   );
